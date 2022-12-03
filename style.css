@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #555;
+}
+.container {
+    padding: 2rem 3rem;
+    background-color: #999;
+    border-radius: 10px;
+}
+.container .current-time {
+    font-size: 30px;
+    font-weight: 600;
+}
